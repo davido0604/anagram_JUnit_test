@@ -25,6 +25,7 @@ public class Anagram {
             for (String anagram : valueList) {
                 if (hasCharacter(keyWord, anagram)) {
                     i = 1;
+                    System.out.println("Hei!");
                 }
                 if (anagramKeys(keyWord)) {
                     i = 0;
