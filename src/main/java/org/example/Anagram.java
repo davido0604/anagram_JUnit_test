@@ -47,10 +47,10 @@ public class Anagram {
     public boolean anagramKeys(String keyWord) {
         for (String key : anagrams.keySet()) {
             if (key == keyWord) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
 }
